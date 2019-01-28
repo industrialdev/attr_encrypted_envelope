@@ -1,3 +1,5 @@
+require 'attr_encrypted_envelope/encryptor'
+
 module AttrEncryptedEnvelope
   module Model
     def self.extended(base) # :nodoc:
